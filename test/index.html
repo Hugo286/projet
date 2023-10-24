@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul de Paie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calcul de Paie</h1>
+    <form id="salary-form">
+        <label for="salary">Salaire Brut :</label>
+        <input type="number" id="salary" required>
+        <button type="submit">Calculer</button>
+    </form>
+    <div id="result">
+        <p>Salaire Brut : <span id="gross-salary"></span></p>
+        <p>Déductions Fiscales : <span id="tax-deductions"></span></p>
+        <p>Salaire Net : <span id="net-salary"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
